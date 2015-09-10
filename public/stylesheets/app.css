@@ -38,3 +38,11 @@ a:visited {
   padding: 1em;
   background-color: #3B9089;
 }
+
+li {
+  margin-bottom: 20px;
+}
+
+a:hover {
+  color: red;
+}
