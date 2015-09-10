@@ -14,7 +14,6 @@ require 'faker'
     avatar_url: Faker::Avatar.image
   )
 end
-, image:
 
 Meetup.create( name: "Ruby Group", location: "Boston, MA", description: "We get together to discuss everything Ruby! Be sure to bring your computer.", )
 Meetup.create( name: "Fantasy Football", location: "Seattle, WA", description: "Join a league or just watch the games!")
