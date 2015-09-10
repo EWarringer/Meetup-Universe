@@ -9,6 +9,7 @@ gem 'sinatra-contrib'
 gem 'sinatra-flash'
 
 group :test, :development do
+  gem 'faker'
   gem 'capybara'
   gem 'dotenv'
   gem 'pry'
