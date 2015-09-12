@@ -46,3 +46,43 @@ li {
 a:hover {
   color: red;
 }
+
+.back-button {
+  margin-top: 20px;
+  color: lightblue;
+}
+
+form {
+  color: darkblue;
+}
+
+#create {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.transfer {
+  font-size: 20pt;
+  font-style: italic;
+  font-family: monospace;
+  border-top-style: groove;
+  border-top-color: white;
+  padding: 10px;
+}
+
+#description_box {
+  display: block;
+}
+
+#description, #submit, #location{
+  margin-top: 10px;
+}
+
+#description {
+  padding-left: 50px;
+}
+
+label {
+  color: lightblue;
+}
