@@ -1,10 +1,12 @@
-class UpdateMeetupsValidations < ActiveRecord::Migration
+class UpdateUsersValidations < ActiveRecord::Migration
   def up
-    change_column :meetups, :location, :string, null: false
-    change_column :meetups, :description, :text, null: false
+    change_column :users, :uid, :string, null: false, unique: true
+    change_column :users, :username, :string, null: false, unique: true
+    change_column :users, :email, :string, null: false, unique: true
   end
   def down
-    change_column :meetups, :location, :string
-    change_column :meetups, :description, :text
+    change_column :users, :uid, :string, null: false
+    change_column :users, :username, :string, null: false
+    change_column :users, :email, :string, null: false
   end
 end
