@@ -5,3 +5,8 @@
     <li><a href="/meetup/<%= meetup.id %>"> <%= meetup.name.upcase %> </a>(<%= meetup.location %>)</li>
   <% end %>
 </ul>
+
+<form action="/create" method="get">
+
+  <input type="submit", value="Create a New Meetup!">
+</form>
