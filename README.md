@@ -1,5 +1,5 @@
 # Meetup-Universe
-All around Model-View-Controller(MVC) practice.
+Challenge that involves Model-View-Controller(MVC) practice.
 
 Using ActiveRecord Association, Migration and Validation in a Sinatra application to communicate with the database and provide the information needed disply it on the HTML page using embedded ruby. 
 
